@@ -14,7 +14,7 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .imageScale(.large)
-            Text("Version 2.0")
+            Text("Version 3.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
             Rectangle()
