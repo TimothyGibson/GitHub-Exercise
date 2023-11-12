@@ -14,10 +14,10 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
             Text("Version 2.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
+            Rectangle()
         }
         .padding()
         .foregroundColor(.green)
